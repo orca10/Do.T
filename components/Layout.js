@@ -10,6 +10,7 @@ const Layout = ({ children }) => {
       {/* Main Contents */}
       <div className='w-full max-w-md bg-[#FFFFFF] h-screen'>
         <Header />
+        {children}
         <NavBar />
       </div>
     </div>
