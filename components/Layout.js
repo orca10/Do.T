@@ -3,17 +3,21 @@ import NavBar from './NavBar';
 
 const Layout = ({ children }) => {
   return (
-    <div className='flex w-full mx-auto justify-center'>
+    <div className='flex mx-auto justify-center '>
+
       {/* Hook Message */}
-      <div className='w-full max-w-md bg-[#FFD203] h-screen'></div>
+      {/* <div className='w-full max-w-md h-[] bg-[#FFD203]'></div> */}
 
       {/* Main Contents */}
-      <div className='w-full max-w-md bg-[#FFFFFF] h-screen'>
+      <div className='w-full max-w-md bg-[#FFFFFF]'>
+
         <Header />
-        {children}
+        <div className='min-h-screen'>{children}</div>
         <NavBar />
+
+
       </div>
-    </div>
+    </div >
   );
 };
 

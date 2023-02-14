@@ -4,7 +4,7 @@ import { useRouter } from 'next/router'
 export default function NavBar() {
   const router = useRouter()
   return (
-    <nav className='bg-white max-w-md text-[#808080] border-t fixed bottom-0 w-full pb-3 pt-5 flex justify-between text-sm'>
+    <nav className='bg-white max-w-md text-[#808080] border-t sticky bottom-0 w-full pb-3 pt-5 flex justify-between text-sm'>
       {/* 홈 */}
       <Link href={"/"} legacyBehavior>
         <a className='flex flex-col items-center space-y-2 w-1/4'>

@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       colors: {
         'primary': '#FFA12E',
+        'sub': '#808080',
       },
       dropShadow: {
         'box': '0 2px 2px rgba(0, 0, 0, 0.25)',

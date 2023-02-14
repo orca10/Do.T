@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <div className='z-10 bg-[#FFFFFF] w-full h-14 max-w-md px-5 font-medium fixed flex items-center'>
+    <div className='z-10 bg-[#FFFFFF] w-full h-14 max-w-md px-5 font-medium sticky top-0 flex items-center mb-4'>
       {/* logo */}
       <Link className='absolute' href={'/'}>
         <TextLogo />

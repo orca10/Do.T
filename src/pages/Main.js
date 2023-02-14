@@ -4,15 +4,14 @@ import { useRouter } from 'next/router';
 export default function Main() {
   return (
     <>
-      <div className='mt-20'>
-        <div className='w-full relative'>
-          <div className='overflow-hidden relative'>
-            <div className='flex flex-col flex-wrap flex-none h-52 bg-primary/20 mx-8 rounded-[5px] drop-shadow-box'>
-              <h1>배너</h1>
-            </div>
+      <div className='w-full relative'>
+        <div className='overflow-hidden relative'>
+          <div className='flex flex-col flex-wrap flex-none h-52 bg-primary/20 mx-8 rounded-[5px] drop-shadow-box'>
+            <h1>배너</h1>
           </div>
         </div>
       </div>
+
 
       {/* 장학금, 공모전, 대외활동 */}
       <div className='bg-[#FFFFFF] grid grid-cols-3 grid-rows-1 mx-8 mt-14 gap-x-10'>
