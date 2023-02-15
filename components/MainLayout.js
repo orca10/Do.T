@@ -1,7 +1,7 @@
 import Header from './Header';
 import NavBar from './NavBar';
 
-const Layout = ({ children }) => {
+const MainLayout = ({ children }) => {
   return (
     <div className='flex mx-auto justify-center '>
 
@@ -10,15 +10,12 @@ const Layout = ({ children }) => {
 
       {/* Main Contents */}
       <div className='w-full max-w-md bg-[#FFFFFF]'>
-
         <Header />
         <div className='min-h-screen'>{children}</div>
         <NavBar />
-
-
       </div>
     </div >
   );
 };
 
-export default Layout
+export default MainLayout

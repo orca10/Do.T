@@ -4,7 +4,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
-export default function SelectSmall() {
+export default function SsDropDown() {
   const [genre, setGenre] = React.useState('');
 
   const handleChange = (event) => {
@@ -22,8 +22,8 @@ export default function SelectSmall() {
         onChange={handleChange}
       >
         <MenuItem value={1}>전체</MenuItem>
-        <MenuItem value={2}>장학금</MenuItem>
-        <MenuItem value={3}>진로/취업</MenuItem>
+        <MenuItem value={2}>생활비</MenuItem>
+        <MenuItem value={3}>등록금</MenuItem>
         <MenuItem value={4}>대학생활</MenuItem>
         <MenuItem value={5}>기타</MenuItem>
       </Select>

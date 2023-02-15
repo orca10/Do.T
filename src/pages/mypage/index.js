@@ -1,9 +1,8 @@
-import Layout from 'components/Layout'
-
+import MainLayout from 'components/MainLayout'
 
 export default function Mypage() {
   return (
-    <Layout>
+    <MainLayout>
       {/* 내 정보 */}
       <p className='text-lg mx-6 mb-2 font-semibold'>내 정보</p>
 
@@ -112,7 +111,7 @@ export default function Mypage() {
             </a>
 
             <a className="flex items-center mx-3 space-x-3 mt-5">
-              <svg width="13" height="17" viewBox="0 0 13 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M11.848 13.7495H8.81934" stroke="#292D32" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
                 <path d="M6.28278 7.59401C6.20706 7.58644 6.1162 7.58644 6.03291 7.59401C4.23085 7.53344 2.7998 6.05696 2.7998 4.23976C2.7998 2.38469 4.299 0.87793 6.16163 0.87793C8.01669 0.87793 9.52346 2.38469 9.52346 4.23976C9.51588 6.05696 8.08484 7.53344 6.28278 7.59401Z" stroke="#292D32" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
                 <path d="M6.16181 15.8781C4.78377 15.8781 3.41329 15.5298 2.3684 14.8332C0.536054 13.6066 0.536054 11.6077 2.3684 10.3886C4.45061 8.99545 7.86544 8.99545 9.94765 10.3886" stroke="#292D32" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
@@ -132,6 +131,6 @@ export default function Mypage() {
 
         </section>
       </div>
-    </Layout>
+    </MainLayout>
   );
 };

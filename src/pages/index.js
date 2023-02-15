@@ -1,4 +1,4 @@
-import Layout from 'components/Layout'
+import MainLayout from 'components/MainLayout'
 import Main from './main';
 import Community from './community';
 import Mypage from './mypage';
@@ -6,7 +6,7 @@ import Mypage from './mypage';
 export default function Home() {
   return (
     <>
-      <Layout children={<Main />} />
+      <MainLayout children={<Main />} />
     </>
   );
 };

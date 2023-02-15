@@ -1,11 +1,11 @@
-import Layout from 'components/Layout'
+import MainLayout from 'components/MainLayout'
 
 export default function Scrap() {
   return (
     <>
-      <Layout>
+      <MainLayout>
 
-      </Layout>
+      </MainLayout>
     </>
   );
 };

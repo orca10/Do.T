@@ -1,11 +1,11 @@
-import Layout from 'components/Layout'
-import DropDown from 'components/DropDown';
+import MainLayout from 'components/MainLayout'
+import DropDown from 'components/DropDown/DropDown';
 
 export default function Community() {
   return (
     <>
-      <Layout>
-        <div className='ml-4'>
+      <MainLayout>
+        <div>
           <DropDown />
         </div>
         <div className='mt-5'>
@@ -72,7 +72,7 @@ export default function Community() {
             </div>
           </div>
         </div>
-      </Layout>
+      </MainLayout>
 
     </>
   );
