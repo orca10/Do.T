@@ -3,7 +3,7 @@ import TextLogo from 'data/text+logo.svg'
 
 export default function SubHeader({ title }) {
   return (
-    <div className='bg-[#FFFFFF] w-full h-14 max-w-md sticky top-0 items-center'>
+    <div className='bg-[#FFFFFF] w-full h-14 max-w-md sticky top-0 items-center mt-3'>
       {/* GoBack Button */}
       <Link className='absolute ml-4 pt-4' href={'/'}>
         <svg width="11" height="21" viewBox="0 0 11 21" fill="none" xmlns="http://www.w3.org/2000/svg">

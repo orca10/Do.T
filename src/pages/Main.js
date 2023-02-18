@@ -6,7 +6,7 @@ export default function Main() {
     <>
       <div className='w-full relative'>
         <div className='overflow-hidden relative'>
-          <div className='flex flex-col flex-wrap flex-none h-52 bg-primary/20 mx-8 rounded-[5px] drop-shadow-box'>
+          <div className='flex flex-col flex-wrap flex-none h-52 bg-primary/20 mx-8 rounded-[5px] drop-shadow-box mt-4'>
             <h1>배너</h1>
           </div>
         </div>
@@ -37,7 +37,7 @@ export default function Main() {
         <div className='w-full relative'>
           <div className='overflow-hidden relative'>
             <span className='mx-8 text-xl font-bold'>추천 정보</span>
-            <div className='mt-8 flex flex-col flex-wrap flex-none h-20 bg-primary/20 mx-8 rounded-[5px] drop-shadow-box'>
+            <div className='mt-8 flex flex-col flex-wrap flex-none h-52 bg-primary/20 mx-8 rounded-[5px] drop-shadow-box'>
               <h1>추천정보</h1>
             </div>
           </div>

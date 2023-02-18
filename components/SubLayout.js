@@ -1,9 +1,8 @@
 import SubHeader from './SubHeader';
 
-
 const SubLayout = ({ children }) => {
 
-  const HeaderTitle = "장학금"
+  var HeaderTitle = ""
 
   return (
     <div className='flex mx-auto justify-center '>

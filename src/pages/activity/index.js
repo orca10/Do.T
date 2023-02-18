@@ -1,15 +1,21 @@
-import MainLayout from 'components/MainLayout'
+import SubLayout from 'components/SubLayout'
+import AtvDropDown from 'components/DropDown/AtvDropDown'
+import PriorityDropDown from 'components/DropDown/PriorityDropDown'
 
-export default function Scrap() {
+export default function Activity() {
   return (
     <>
-      <MainLayout>
+      <SubLayout>
+        <div className='w-full h-14'>
+          <div className='float-left'><AtvDropDown /></div>
+          <div className='float-right'><PriorityDropDown /></div>
+        </div>
         <div className='w-full relative'>
-          <div className='overflow-hidden relative'>
+          <div className='overflow-hidden relative mt-5'>
             {/* TODO: url 연결 */}
             <a>
               <div className='flex flex-col h-40 bg-white border-t-[1px] border-[#eaeaea] pl-2'>
-                <div className='flex justify-center items-center mt-3 w-20 h-5 bg-[#EFEFEF] text-primary px-3 text-center text-[10px] rounded-xl'>생활비</div>
+                <div className='flex justify-center items-center mt-3 w-20 h-5 bg-[#EFEFEF] text-primary px-3 text-center text-[10px] rounded-xl'>기업 서포터즈</div>
                 <span className='mt-4 text-sub'>한국장학재단</span>
                 <span className='mt-4 font-bold'>푸른등대 기부장학금</span>
                 <span className='mt-4 text-primary text-xs'>D-7</span>
@@ -25,7 +31,7 @@ export default function Scrap() {
             </div>
           </div>
         </div>
-      </MainLayout>
+      </SubLayout>
     </>
-  );
-};
+  )
+}
